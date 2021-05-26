@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+	color:antiquewhite;
+	text-align: center;
+}
+img {
+	width: 60%;	
+}
+#Titulo{
+	border-radius: 5px;
+	box-shadow:#4D2B00 1px 1px 15px;
+	background-color:#4D2B00 ;
+	height: 50px;
+	width: 50%;
+	padding-top: 20px;
+	margin:15px auto;
+	margin-bottom: 50px;
+	text-shadow: white 1px 1px 10px;
+	font-size: calc(1em + 1vw);
+}
+body {
+  border: 4px #4D2B00 solid;
+  background-color:#8E4F00;
+  margin: 10px 10px;
+  color:#313131;
+}
+section {
+	width: 91%;
+	border-top: dashed #4D2B00;
+	margin: 15px auto;
+}
+article {
+	border: #4D2B00 solid 3px;
+	border-radius: 5px;
+	box-shadow:black 1px 1px 15px;
+	width: 70%;
+	text-align: center;
+	margin: 20px auto;
+}
+footer{
+	margin-top: 50px;
+	margin-right: 10px;
+	clear: both;
+	font-size: 11px;
+	text-align: right;
+	color:#000000;
+}

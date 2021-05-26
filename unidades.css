@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+	text-align: center;
+	border-radius: 5px;
+	box-shadow:#8E4F00 1px 1px 15px;
+	background-color:#8E4F00 ;
+	margin:15px auto;
+	margin-bottom: 50px;
+	width: 50%;
+}
+h1 {
+	font-size: calc(1em + 1vw);
+	color:antiquewhite;
+	text-shadow: #8E4F00 1px 1px 15px;
+}
+body {
+  border: 4px #8E4F00 solid;
+  background-color:#4D2B00;
+  margin: 10px 10px;
+}
+section {
+	width: 91%;
+	border-top: dashed #8E4F00;
+	margin: 15px auto;
+}
+article {
+	padding-left: 5px;
+	border: #4D2B00 solid 3px;
+	background-color: #8E4F00;
+	border-radius: 5px;
+	box-shadow:black 1px 1px 15px;
+	width: 90%;
+	margin: 20px auto;
+}
+p[name="pregunta"]{
+	color:antiquewhite;
+}
+ol {
+	color:#8E4F00;
+}
+ol:hover {
+	color:antiquewhite;
+}
+p[name="respuesta"] {
+	color:#8E4F00;
+}
+p[name="respuesta"]:hover {
+	color:antiquewhite;
+}
+footer{
+	margin-top: 50px;
+	margin-right: 10px;
+	clear: both;
+	font-size: 11px;
+	text-align: right;
+	color:antiquewhite;
+}
